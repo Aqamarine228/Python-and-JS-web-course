@@ -1,0 +1,99 @@
+body {
+  background-color: white;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  font-size: 16px;
+}
+
+.logo {
+  text-align: -webkit-center;
+  margin-top:200px;
+}
+
+.search {
+  height:45px;
+  border:none;
+  width:500px;
+  font-size:16px;
+  outline: none;
+}
+ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+li{
+  float: right;
+}
+li a {
+    color: #000;
+    display: block;
+    text-align: right;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+}
+
+@media {
+  .search { (min-width 672px) }
+}
+
+.bar{
+  margin:0 auto;
+  width:575px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+}
+.bar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline: none;
+}
+
+.searchbar {
+  height: 45px;
+  border: none;
+  width: 500px;
+  font-size: 16px;
+  outline: none;
+}
+
+.voice {
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+.beforeB {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 18px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#LogoSubText {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: +102px;
+    position: relative;
+    top: -21px;
+    white-space: nowrap;
+}

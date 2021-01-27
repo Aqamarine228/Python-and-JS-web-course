@@ -1,0 +1,118 @@
+
+    body{
+        padding-top: 60px;
+        padding-bottom: 40px;
+        font-family: arial,sans-serif;
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .fixed-header {
+        width: 111%;
+        position: fixed;
+        background-color: #f1f1f1;
+        padding: 2px 6px;
+
+
+    }
+    .fixed-header{
+        top: 0px;
+        right: 1px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+        left: 30px;
+    }
+
+
+    .SmallLogo {
+        height: 33px;
+        width: 92px;
+        padding-top: 5px;
+        padding-left: 150px;
+    }
+
+    #Upbar {
+        color: #d93025;
+        margin: 18px 33px 24px;
+        font-style: inherit;
+        font-size: 125%;
+        vertical-align: baseline
+    }
+
+    .Line {
+        border-bottom: 1px solid #ebebeb;
+    }
+
+    .searchers {
+        float: left;
+        min-width: 167px;
+        width: 16%;
+        font-size: 16px;
+        min-height: 42px;
+        font-weight: 500;
+        color: #333;
+        vertical-align: middle;
+        height: 30px;
+        display: table-cell;
+        padding-left: 30px;
+        padding-top: 45px;
+    }
+
+    .Forms {
+        border-radius: 1px;
+        border: 1px solid #d9d9d9;
+        border-top: 1px solid #c0c0c0;
+        height: 25px;
+        padding: 1px 8px;
+        -webkit-writing-mode: horizontal-tb !important;
+        text-rendering: auto;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        -webkit-rtl-ordering: logical;
+        cursor: text;
+        font: 400 13.3333px Arial;
+        width: 500px;
+        min-width: 100px;
+    }
+
+
+    #text {
+        padding-top: 90px;
+        padding-left: 30px;
+        font-family: arial,sans-serif;
+        font-size: small;
+    }
+
+    @media (min-width: 100px) {
+        #sumbiter {
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-color: #4d90fe;
+            background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+            border: 1px solid #3079ed;
+            color: #fff;
+            margin-left: 627px;
+            min-width: 120px;
+            min-height: 30px;
+            box-sizing: border-box;
+            position: absolute;
+        }
+    }
+
+    .Urls {
+        color: black;
+        top: 155px;
+        font-family: arial,sans-serif;
+        font-size: 15px;
+    }
